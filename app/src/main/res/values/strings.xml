@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DB</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_bookmarks">Bookmarks</string>
+    
+    <!-- Home -->
+    <string name="trending_movies">Trending Movies</string>
+    <string name="now_playing">Now Playing</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search movies…</string>
+    <string name="search_empty">Search for movies…</string>
+    
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">Your Bookmarks</string>
+    <string name="no_bookmarks">No bookmarked movies yet</string>
+    
+    <!-- Movie Details -->
+    <string name="movie_details">Movie Details</string>
+    <string name="release_date">Release Date: %s</string>
+    <string name="rating">Rating: %.1f</string>
+    <string name="overview">Overview</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_trending">Failed to load trending movies: %s</string>
+    <string name="error_loading_now_playing">Failed to load now playing movies: %s</string>
+    <string name="error_loading_movie_details">Failed to load movie details: %s</string>
+    <string name="error_loading_bookmarks">Failed to load bookmarked movies: %s</string>
+    <string name="error_searching">Failed to search movies: %s</string>
+    <string name="error_bookmark_update">Failed to update bookmark: %s</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_movie_poster">Movie Poster</string>
+    <string name="cd_bookmark_button">Bookmark Movie</string>
+    <string name="bookmark">Bookmark</string>
+    
+    <!-- New strings from the code block -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="search_movies">Search Movies</string>
+    <string name="no_movies_found">No movies found</string>
+    <string name="unbookmark">Unbookmark</string>
+    <string name="error_loading_movies">Error loading movies</string>
+    <string name="error_searching_movies">Error searching movies</string>
+    <string name="error_bookmarking">Error bookmarking movie</string>
+    <string name="error_unbookmarking">Error unbookmarking movie</string>
+    <string name="refresh">Refresh</string>
+</resources>

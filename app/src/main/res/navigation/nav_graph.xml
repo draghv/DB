@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.db.ui.home.HomeFragment"
+        android:label="@string/nav_home">
+        <action
+            android:id="@+id/action_home_to_details"
+            app:destination="@id/navigation_movie_details">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.db.ui.search.SearchFragment"
+        android:label="@string/nav_search">
+        <action
+            android:id="@+id/action_search_fragment_to_movie_details_fragment"
+            app:destination="@id/navigation_movie_details">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_bookmarks"
+        android:name="com.example.db.ui.bookmarks.BookmarksFragment"
+        android:label="@string/nav_bookmarks">
+        <action
+            android:id="@+id/action_bookmarks_fragment_to_movie_details_fragment"
+            app:destination="@id/navigation_movie_details">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_movie_details"
+        android:name="com.example.db.ui.details.MovieDetailsFragment"
+        android:label="@string/movie_details">
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation> 
